@@ -1,0 +1,15 @@
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\bin\Debug\net6.0\Janeriklee.exe
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\bin\Debug\net6.0\Janeriklee.deps.json
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\bin\Debug\net6.0\Janeriklee.runtimeconfig.json
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\bin\Debug\net6.0\Janeriklee.dll
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\bin\Debug\net6.0\Janeriklee.pdb
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.csproj.AssemblyReference.cache
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.AssemblyInfoInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.AssemblyInfo.cs
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.csproj.CoreCompileInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.dll
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\refint\Janeriklee.dll
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.pdb
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\Janeriklee.genruntimeconfig.cache
+C:\Users\jan.lee\source\repos\Csharp\Janeriklee\Janeriklee\obj\Debug\net6.0\ref\Janeriklee.dll

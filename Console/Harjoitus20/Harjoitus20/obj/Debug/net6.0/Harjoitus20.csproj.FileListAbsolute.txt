@@ -1,0 +1,29 @@
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.exe
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.deps.json
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.runtimeconfig.json
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.pdb
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.csproj.AssemblyReference.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.AssemblyInfoInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.AssemblyInfo.cs
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.csproj.CoreCompileInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\refint\Harjoitus20.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.pdb
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.genruntimeconfig.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus20\Harjoitus20\obj\Debug\net6.0\ref\Harjoitus20.dll
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.exe
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.deps.json
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.runtimeconfig.json
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.dll
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\bin\Debug\net6.0\Harjoitus20.pdb
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.AssemblyInfoInputs.cache
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.AssemblyInfo.cs
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.csproj.CoreCompileInputs.cache
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.dll
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\refint\Harjoitus20.dll
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.pdb
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\Harjoitus20.genruntimeconfig.cache
+C:\Users\Jan Erik\Source\Repos\Csharp\Console\Harjoitus20\Harjoitus20\obj\Debug\net6.0\ref\Harjoitus20.dll

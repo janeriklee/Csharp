@@ -1,0 +1,15 @@
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\bin\Debug\net6.0\Harjoitus13.exe
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\bin\Debug\net6.0\Harjoitus13.deps.json
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\bin\Debug\net6.0\Harjoitus13.runtimeconfig.json
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\bin\Debug\net6.0\Harjoitus13.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\bin\Debug\net6.0\Harjoitus13.pdb
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.csproj.AssemblyReference.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.AssemblyInfoInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.AssemblyInfo.cs
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.csproj.CoreCompileInputs.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\refint\Harjoitus13.dll
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.pdb
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\Harjoitus13.genruntimeconfig.cache
+C:\Users\jan.lee\source\repos\Csharp\Harjoitus13\Harjoitus13\obj\Debug\net6.0\ref\Harjoitus13.dll
