@@ -1,0 +1,16 @@
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\bin\Debug\net6.0-windows\Harjoitus10.exe
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\bin\Debug\net6.0-windows\Harjoitus10.deps.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\bin\Debug\net6.0-windows\Harjoitus10.runtimeconfig.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\bin\Debug\net6.0-windows\Harjoitus10.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\bin\Debug\net6.0-windows\Harjoitus10.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.Form1.resources
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.csproj.GenerateResource.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.AssemblyInfoInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.AssemblyInfo.cs
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.csproj.CoreCompileInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\refint\Harjoitus10.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\Harjoitus10.genruntimeconfig.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus10\Harjoitus10\obj\Debug\net6.0-windows\ref\Harjoitus10.dll
