@@ -28,93 +28,110 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton4 = new RadioButton();
-            label2 = new Label();
+            KysymysLB = new Label();
+            ARB = new RadioButton();
+            BRB = new RadioButton();
+            CRB = new RadioButton();
+            DRB = new RadioButton();
+            VastausLB = new Label();
+            VastausARB = new RadioButton();
             SuspendLayout();
             // 
-            // label1
+            // KysymysLB
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(90, 30);
-            label1.TabIndex = 0;
-            label1.Text = "Kysymys";
+            KysymysLB.AutoSize = true;
+            KysymysLB.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            KysymysLB.Location = new Point(12, 9);
+            KysymysLB.Name = "KysymysLB";
+            KysymysLB.Size = new Size(236, 30);
+            KysymysLB.TabIndex = 0;
+            KysymysLB.Text = "Vastaus 1. kysymykseen:";
+            KysymysLB.Click += KysymysLB_Click;
             // 
-            // radioButton1
+            // ARB
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton1.Location = new Point(294, 49);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(37, 24);
-            radioButton1.TabIndex = 1;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "A";
-            radioButton1.UseVisualStyleBackColor = true;
+            ARB.AutoSize = true;
+            ARB.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            ARB.Location = new Point(294, 49);
+            ARB.Name = "ARB";
+            ARB.Size = new Size(37, 24);
+            ARB.TabIndex = 1;
+            ARB.TabStop = true;
+            ARB.Text = "A";
+            ARB.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // BRB
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton2.Location = new Point(294, 74);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(36, 24);
-            radioButton2.TabIndex = 2;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "B";
-            radioButton2.UseVisualStyleBackColor = true;
+            BRB.AutoSize = true;
+            BRB.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            BRB.Location = new Point(294, 74);
+            BRB.Name = "BRB";
+            BRB.Size = new Size(36, 24);
+            BRB.TabIndex = 2;
+            BRB.TabStop = true;
+            BRB.Text = "B";
+            BRB.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // CRB
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton3.Location = new Point(294, 99);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(36, 24);
-            radioButton3.TabIndex = 3;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "C";
-            radioButton3.UseVisualStyleBackColor = true;
+            CRB.AutoSize = true;
+            CRB.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            CRB.Location = new Point(294, 99);
+            CRB.Name = "CRB";
+            CRB.Size = new Size(36, 24);
+            CRB.TabIndex = 3;
+            CRB.TabStop = true;
+            CRB.Text = "C";
+            CRB.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // DRB
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton4.Location = new Point(293, 124);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(38, 24);
-            radioButton4.TabIndex = 4;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "D";
-            radioButton4.UseVisualStyleBackColor = true;
+            DRB.AutoSize = true;
+            DRB.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            DRB.Location = new Point(293, 124);
+            DRB.Name = "DRB";
+            DRB.Size = new Size(38, 24);
+            DRB.TabIndex = 4;
+            DRB.TabStop = true;
+            DRB.Text = "D";
+            DRB.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // VastausLB
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 163);
-            label2.Name = "label2";
-            label2.Size = new Size(83, 30);
-            label2.TabIndex = 5;
-            label2.Text = "Vastaus";
+            VastausLB.AutoSize = true;
+            VastausLB.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            VastausLB.Location = new Point(12, 163);
+            VastausLB.Name = "VastausLB";
+            VastausLB.Size = new Size(83, 30);
+            VastausLB.TabIndex = 5;
+            VastausLB.Text = "Vastaus";
+            VastausLB.Visible = false;
+            // 
+            // VastausARB
+            // 
+            VastausARB.AutoCheck = false;
+            VastausARB.AutoSize = true;
+            VastausARB.Location = new Point(248, 171);
+            VastausARB.Name = "VastausARB";
+            VastausARB.Size = new Size(86, 19);
+            VastausARB.TabIndex = 6;
+            VastausARB.TabStop = true;
+            VastausARB.Text = "VastausARB";
+            VastausARB.UseVisualStyleBackColor = true;
+            VastausARB.Visible = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(422, 202);
-            Controls.Add(label2);
-            Controls.Add(radioButton4);
-            Controls.Add(radioButton3);
-            Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
-            Controls.Add(label1);
+            ClientSize = new Size(354, 202);
+            Controls.Add(VastausARB);
+            Controls.Add(VastausLB);
+            Controls.Add(DRB);
+            Controls.Add(CRB);
+            Controls.Add(BRB);
+            Controls.Add(ARB);
+            Controls.Add(KysymysLB);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -123,11 +140,12 @@
 
         #endregion
 
-        private Label label1;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton3;
-        private RadioButton radioButton4;
-        private Label label2;
+        private Label KysymysLB;
+        private RadioButton ARB;
+        private RadioButton BRB;
+        private RadioButton CRB;
+        private RadioButton DRB;
+        private Label VastausLB;
+        private RadioButton VastausARB;
     }
 }
