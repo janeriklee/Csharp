@@ -1,0 +1,16 @@
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.Form1.resources
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.csproj.GenerateResource.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.AssemblyInfoInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.AssemblyInfo.cs
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.csproj.CoreCompileInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.exe
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.deps.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.runtimeconfig.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\refint\Harjoitus18.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.genruntimeconfig.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\ref\Harjoitus18.dll
