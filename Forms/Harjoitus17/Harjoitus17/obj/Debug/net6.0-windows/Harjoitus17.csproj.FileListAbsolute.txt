@@ -1,0 +1,17 @@
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.NotepadForm.resources
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.csproj.GenerateResource.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.AssemblyInfoInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.AssemblyInfo.cs
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.csproj.CoreCompileInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.exe
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.deps.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.runtimeconfig.json
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\refint\Harjoitus17.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.genruntimeconfig.cache
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\ref\Harjoitus17.dll
+C:\Users\Jan Erik\source\repos\Csharp\Forms\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.Form2.resources
