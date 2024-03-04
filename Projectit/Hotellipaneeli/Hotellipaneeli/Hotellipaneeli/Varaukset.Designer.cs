@@ -74,7 +74,7 @@
             LisaaVarausBT.Name = "LisaaVarausBT";
             LisaaVarausBT.Size = new Size(158, 35);
             LisaaVarausBT.TabIndex = 29;
-            LisaaVarausBT.Text = "Lisää uusi varaus";
+            LisaaVarausBT.Text = "Lisää Uusi Varaus";
             LisaaVarausBT.UseVisualStyleBackColor = true;
             LisaaVarausBT.Click += LisaaVarausBT_Click;
             // 
