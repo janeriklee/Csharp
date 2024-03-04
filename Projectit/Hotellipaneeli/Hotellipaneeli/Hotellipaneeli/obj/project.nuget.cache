@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "I7bg30u2gSPaZJh5WGVGUMiOvqcX4e0sDPhkHaFvDaS4pIl5n1OySEm88oZRWtOIRcW/1eu71U5fK6MCDp7X3A==",
+  "dgSpecHash": "PZY++TRcRXwDxMggjPDt0Hu7e8zcMjfIZS/QNCRuFuuLX9FvHD9xZXiWRbTCqNCw4OWbIzlk2sYa5/UI5BuLlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jan Erik\\source\\repos\\Csharp\\Projectit\\Hotellipaneeli\\Hotellipaneeli\\Hotellipaneeli\\Hotellipaneeli.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jan Erik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Jan Erik\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\Jan Erik\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\Jan Erik\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

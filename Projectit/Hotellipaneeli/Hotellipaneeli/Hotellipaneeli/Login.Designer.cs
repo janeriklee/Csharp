@@ -33,9 +33,9 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            KayttajanimiTB = new TextBox();
+            SalasanaTB = new TextBox();
+            KirjauduBT = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -93,31 +93,33 @@
             label3.TabIndex = 3;
             label3.Text = "Salasana:";
             // 
-            // textBox1
+            // KayttajanimiTB
             // 
-            textBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(150, 277);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 33);
-            textBox1.TabIndex = 4;
+            KayttajanimiTB.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            KayttajanimiTB.Location = new Point(150, 277);
+            KayttajanimiTB.Name = "KayttajanimiTB";
+            KayttajanimiTB.Size = new Size(221, 33);
+            KayttajanimiTB.TabIndex = 4;
             // 
-            // textBox2
+            // SalasanaTB
             // 
-            textBox2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(150, 316);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 33);
-            textBox2.TabIndex = 5;
+            SalasanaTB.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            SalasanaTB.Location = new Point(150, 316);
+            SalasanaTB.Name = "SalasanaTB";
+            SalasanaTB.Size = new Size(221, 33);
+            SalasanaTB.TabIndex = 5;
+            SalasanaTB.UseSystemPasswordChar = true;
             // 
-            // button1
+            // KirjauduBT
             // 
-            button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(12, 364);
-            button1.Name = "button1";
-            button1.Size = new Size(359, 46);
-            button1.TabIndex = 6;
-            button1.Text = "Kirjaudu";
-            button1.UseVisualStyleBackColor = true;
+            KirjauduBT.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            KirjauduBT.Location = new Point(12, 364);
+            KirjauduBT.Name = "KirjauduBT";
+            KirjauduBT.Size = new Size(359, 46);
+            KirjauduBT.TabIndex = 6;
+            KirjauduBT.Text = "Kirjaudu";
+            KirjauduBT.UseVisualStyleBackColor = true;
+            KirjauduBT.Click += button1_Click;
             // 
             // LoginFM
             // 
@@ -125,16 +127,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Green;
             ClientSize = new Size(383, 421);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(KirjauduBT);
+            Controls.Add(SalasanaTB);
+            Controls.Add(KayttajanimiTB);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "LoginFM";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Kirjaudu";
-            Load += LoginFM_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -149,8 +152,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private TextBox KayttajanimiTB;
+        private TextBox SalasanaTB;
+        private Button KirjauduBT;
     }
 }

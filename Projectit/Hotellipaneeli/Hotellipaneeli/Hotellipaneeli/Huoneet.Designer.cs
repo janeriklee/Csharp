@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             HallitseHuoneitaDGW = new DataGridView();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            Puhelin2TB = new TextBox();
+            TyhjennaSarakkeetBT = new Button();
+            LisaaHuoneBT = new Button();
+            MuokkaaBT = new Button();
+            PoistaBT = new Button();
+            PuhelinTB = new TextBox();
             HuoneenNroTB = new TextBox();
             label6 = new Label();
             label5 = new Label();
@@ -59,54 +59,58 @@
             HallitseHuoneitaDGW.Size = new Size(343, 300);
             HallitseHuoneitaDGW.TabIndex = 31;
             // 
-            // button4
+            // TyhjennaSarakkeetBT
             // 
-            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(55, 367);
-            button4.Name = "button4";
-            button4.Size = new Size(346, 35);
-            button4.TabIndex = 30;
-            button4.Text = "Tyhjennä Sarakkeet";
-            button4.UseVisualStyleBackColor = true;
+            TyhjennaSarakkeetBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TyhjennaSarakkeetBT.Location = new Point(55, 367);
+            TyhjennaSarakkeetBT.Name = "TyhjennaSarakkeetBT";
+            TyhjennaSarakkeetBT.Size = new Size(346, 35);
+            TyhjennaSarakkeetBT.TabIndex = 30;
+            TyhjennaSarakkeetBT.Text = "Tyhjennä Sarakkeet";
+            TyhjennaSarakkeetBT.UseVisualStyleBackColor = true;
+            TyhjennaSarakkeetBT.Click += TyhjennaSarakkeetBT_Click;
             // 
-            // button3
+            // LisaaHuoneBT
             // 
-            button3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(55, 326);
-            button3.Name = "button3";
-            button3.Size = new Size(158, 35);
-            button3.TabIndex = 29;
-            button3.Text = "Lisää Uusi Huone";
-            button3.UseVisualStyleBackColor = true;
+            LisaaHuoneBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LisaaHuoneBT.Location = new Point(55, 326);
+            LisaaHuoneBT.Name = "LisaaHuoneBT";
+            LisaaHuoneBT.Size = new Size(158, 35);
+            LisaaHuoneBT.TabIndex = 29;
+            LisaaHuoneBT.Text = "Lisää Uusi Huone";
+            LisaaHuoneBT.UseVisualStyleBackColor = true;
+            LisaaHuoneBT.Click += LisaaHuoneBT_Click;
             // 
-            // button2
+            // MuokkaaBT
             // 
-            button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(219, 326);
-            button2.Name = "button2";
-            button2.Size = new Size(98, 35);
-            button2.TabIndex = 28;
-            button2.Text = "Muokkaa";
-            button2.UseVisualStyleBackColor = true;
+            MuokkaaBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            MuokkaaBT.Location = new Point(219, 326);
+            MuokkaaBT.Name = "MuokkaaBT";
+            MuokkaaBT.Size = new Size(98, 35);
+            MuokkaaBT.TabIndex = 28;
+            MuokkaaBT.Text = "Muokkaa";
+            MuokkaaBT.UseVisualStyleBackColor = true;
+            MuokkaaBT.Click += MuokkaaBT_Click;
             // 
-            // button1
+            // PoistaBT
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(323, 326);
-            button1.Name = "button1";
-            button1.Size = new Size(78, 35);
-            button1.TabIndex = 27;
-            button1.Text = "Poista";
-            button1.UseVisualStyleBackColor = true;
+            PoistaBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PoistaBT.Location = new Point(323, 326);
+            PoistaBT.Name = "PoistaBT";
+            PoistaBT.Size = new Size(78, 35);
+            PoistaBT.TabIndex = 27;
+            PoistaBT.Text = "Poista";
+            PoistaBT.UseVisualStyleBackColor = true;
+            PoistaBT.Click += PoistaBT_Click;
             // 
-            // Puhelin2TB
+            // PuhelinTB
             // 
-            Puhelin2TB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Puhelin2TB.Location = new Point(202, 185);
-            Puhelin2TB.Name = "Puhelin2TB";
-            Puhelin2TB.Size = new Size(193, 29);
-            Puhelin2TB.TabIndex = 25;
-            Puhelin2TB.TextChanged += Puhelin2TB_TextChanged;
+            PuhelinTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PuhelinTB.Location = new Point(202, 185);
+            PuhelinTB.Name = "PuhelinTB";
+            PuhelinTB.Size = new Size(193, 29);
+            PuhelinTB.TabIndex = 25;
+            PuhelinTB.TextChanged += PuhelinTB_TextChanged;
             // 
             // HuoneenNroTB
             // 
@@ -180,7 +184,6 @@
             // 
             HuonetyyppiCB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             HuonetyyppiCB.FormattingEnabled = true;
-            HuonetyyppiCB.Items.AddRange(new object[] { "Single", "Double", "Family", "Suite" });
             HuonetyyppiCB.Location = new Point(202, 145);
             HuonetyyppiCB.Name = "HuonetyyppiCB";
             HuonetyyppiCB.Size = new Size(193, 29);
@@ -231,18 +234,20 @@
             Controls.Add(panel2);
             Controls.Add(HuonetyyppiCB);
             Controls.Add(HallitseHuoneitaDGW);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(Puhelin2TB);
+            Controls.Add(TyhjennaSarakkeetBT);
+            Controls.Add(LisaaHuoneBT);
+            Controls.Add(MuokkaaBT);
+            Controls.Add(PoistaBT);
+            Controls.Add(PuhelinTB);
             Controls.Add(HuoneenNroTB);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "HuoneetFM";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Hallitse Huoneita";
             Load += HuoneetFM_Load;
             ((System.ComponentModel.ISupportInitialize)HallitseHuoneitaDGW).EndInit();
@@ -257,11 +262,11 @@
         #endregion
 
         private DataGridView HallitseHuoneitaDGW;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private TextBox Puhelin2TB;
+        private Button TyhjennaSarakkeetBT;
+        private Button LisaaHuoneBT;
+        private Button MuokkaaBT;
+        private Button PoistaBT;
+        private TextBox PuhelinTB;
         private TextBox HuoneenNroTB;
         private Label label6;
         private Label label5;

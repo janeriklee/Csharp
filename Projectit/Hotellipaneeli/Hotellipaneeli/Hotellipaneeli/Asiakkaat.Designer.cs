@@ -30,23 +30,23 @@
         {
             panel1 = new Panel();
             label1 = new Label();
-            label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            dataGridView1 = new DataGridView();
+            SukunimiAsiakasTB = new TextBox();
+            LahiosoiteAsiakasTB = new TextBox();
+            PostinumeroAsiakasTB = new TextBox();
+            KaupunkiAsiakasTB = new TextBox();
+            PoistaBT = new Button();
+            MuokkaaBT = new Button();
+            LisaaUusiAsiakasBT = new Button();
+            TyhjennaSarakkeetAsiakasBT = new Button();
+            AsiakkaatDGW = new DataGridView();
+            label2 = new Label();
+            EtunimiAsiakasTB = new TextBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AsiakkaatDGW).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -69,144 +69,148 @@
             label1.TabIndex = 0;
             label1.Text = "Hallitse Asiakkaita";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(121, 102);
-            label2.Name = "label2";
-            label2.Size = new Size(39, 30);
-            label2.TabIndex = 1;
-            label2.Text = "ID:";
-            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(70, 141);
+            label3.Location = new Point(55, 144);
             label3.Name = "label3";
-            label3.Size = new Size(90, 30);
+            label3.Size = new Size(105, 30);
             label3.TabIndex = 2;
-            label3.Text = "Etunimi:";
+            label3.Text = "Sukunimi:";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(55, 180);
+            label4.Location = new Point(45, 183);
             label4.Name = "label4";
-            label4.Size = new Size(105, 30);
+            label4.Size = new Size(115, 30);
             label4.TabIndex = 3;
-            label4.Text = "Sukunimi:";
+            label4.Text = "Lähiosoite:";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(73, 220);
+            label5.Location = new Point(21, 223);
             label5.Name = "label5";
-            label5.Size = new Size(87, 30);
+            label5.Size = new Size(139, 30);
             label5.TabIndex = 4;
-            label5.Text = "Puhelin:";
+            label5.Text = "Postinumero:";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(101, 259);
+            label6.Location = new Point(53, 263);
             label6.Name = "label6";
-            label6.Size = new Size(59, 30);
+            label6.Size = new Size(107, 30);
             label6.TabIndex = 5;
-            label6.Text = "Maa:";
+            label6.Text = "Kaupunki:";
             // 
-            // textBox1
+            // SukunimiAsiakasTB
             // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(166, 106);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(115, 29);
-            textBox1.TabIndex = 6;
+            SukunimiAsiakasTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            SukunimiAsiakasTB.Location = new Point(166, 145);
+            SukunimiAsiakasTB.Name = "SukunimiAsiakasTB";
+            SukunimiAsiakasTB.Size = new Size(235, 29);
+            SukunimiAsiakasTB.TabIndex = 7;
             // 
-            // textBox2
+            // LahiosoiteAsiakasTB
             // 
-            textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(166, 145);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(235, 29);
-            textBox2.TabIndex = 7;
+            LahiosoiteAsiakasTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LahiosoiteAsiakasTB.Location = new Point(166, 184);
+            LahiosoiteAsiakasTB.Name = "LahiosoiteAsiakasTB";
+            LahiosoiteAsiakasTB.Size = new Size(235, 29);
+            LahiosoiteAsiakasTB.TabIndex = 8;
             // 
-            // textBox3
+            // PostinumeroAsiakasTB
             // 
-            textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(166, 184);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(235, 29);
-            textBox3.TabIndex = 8;
+            PostinumeroAsiakasTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PostinumeroAsiakasTB.Location = new Point(166, 224);
+            PostinumeroAsiakasTB.Name = "PostinumeroAsiakasTB";
+            PostinumeroAsiakasTB.Size = new Size(235, 29);
+            PostinumeroAsiakasTB.TabIndex = 9;
             // 
-            // textBox4
+            // KaupunkiAsiakasTB
             // 
-            textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(166, 224);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(235, 29);
-            textBox4.TabIndex = 9;
+            KaupunkiAsiakasTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            KaupunkiAsiakasTB.Location = new Point(166, 263);
+            KaupunkiAsiakasTB.Name = "KaupunkiAsiakasTB";
+            KaupunkiAsiakasTB.Size = new Size(235, 29);
+            KaupunkiAsiakasTB.TabIndex = 10;
             // 
-            // textBox5
+            // PoistaBT
             // 
-            textBox5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(166, 263);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(235, 29);
-            textBox5.TabIndex = 10;
+            PoistaBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PoistaBT.Location = new Point(323, 326);
+            PoistaBT.Name = "PoistaBT";
+            PoistaBT.Size = new Size(78, 35);
+            PoistaBT.TabIndex = 11;
+            PoistaBT.Text = "Poista";
+            PoistaBT.UseVisualStyleBackColor = true;
+            PoistaBT.Click += PoistaBT_Click;
             // 
-            // button1
+            // MuokkaaBT
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(323, 326);
-            button1.Name = "button1";
-            button1.Size = new Size(78, 35);
-            button1.TabIndex = 11;
-            button1.Text = "Poista";
-            button1.UseVisualStyleBackColor = true;
+            MuokkaaBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            MuokkaaBT.Location = new Point(219, 326);
+            MuokkaaBT.Name = "MuokkaaBT";
+            MuokkaaBT.Size = new Size(98, 35);
+            MuokkaaBT.TabIndex = 12;
+            MuokkaaBT.Text = "Muokkaa";
+            MuokkaaBT.UseVisualStyleBackColor = true;
+            MuokkaaBT.Click += MuokkaaBT_Click;
             // 
-            // button2
+            // LisaaUusiAsiakasBT
             // 
-            button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(219, 326);
-            button2.Name = "button2";
-            button2.Size = new Size(98, 35);
-            button2.TabIndex = 12;
-            button2.Text = "Muokkaa";
-            button2.UseVisualStyleBackColor = true;
+            LisaaUusiAsiakasBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LisaaUusiAsiakasBT.Location = new Point(55, 326);
+            LisaaUusiAsiakasBT.Name = "LisaaUusiAsiakasBT";
+            LisaaUusiAsiakasBT.Size = new Size(158, 35);
+            LisaaUusiAsiakasBT.TabIndex = 13;
+            LisaaUusiAsiakasBT.Text = "Lisää Uusi Asiakas";
+            LisaaUusiAsiakasBT.UseVisualStyleBackColor = true;
+            LisaaUusiAsiakasBT.Click += LisaaUusiAsiakasBT_Click;
             // 
-            // button3
+            // TyhjennaSarakkeetAsiakasBT
             // 
-            button3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(55, 326);
-            button3.Name = "button3";
-            button3.Size = new Size(158, 35);
-            button3.TabIndex = 13;
-            button3.Text = "Lisää Uusi Asiakas";
-            button3.UseVisualStyleBackColor = true;
+            TyhjennaSarakkeetAsiakasBT.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TyhjennaSarakkeetAsiakasBT.Location = new Point(55, 367);
+            TyhjennaSarakkeetAsiakasBT.Name = "TyhjennaSarakkeetAsiakasBT";
+            TyhjennaSarakkeetAsiakasBT.Size = new Size(346, 35);
+            TyhjennaSarakkeetAsiakasBT.TabIndex = 14;
+            TyhjennaSarakkeetAsiakasBT.Text = "Tyhjennä Sarakkeet";
+            TyhjennaSarakkeetAsiakasBT.UseVisualStyleBackColor = true;
+            TyhjennaSarakkeetAsiakasBT.Click += TyhjennaSarakkeetAsiakasBT_Click;
             // 
-            // button4
+            // AsiakkaatDGW
             // 
-            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(55, 367);
-            button4.Name = "button4";
-            button4.Size = new Size(346, 35);
-            button4.TabIndex = 14;
-            button4.Text = "Tyhjennä Sarake";
-            button4.UseVisualStyleBackColor = true;
+            AsiakkaatDGW.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            AsiakkaatDGW.Location = new Point(433, 102);
+            AsiakkaatDGW.Name = "AsiakkaatDGW";
+            AsiakkaatDGW.RowTemplate.Height = 25;
+            AsiakkaatDGW.Size = new Size(343, 300);
+            AsiakkaatDGW.TabIndex = 15;
             // 
-            // dataGridView1
+            // label2
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(433, 102);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(343, 300);
-            dataGridView1.TabIndex = 15;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(70, 105);
+            label2.Name = "label2";
+            label2.Size = new Size(90, 30);
+            label2.TabIndex = 1;
+            label2.Text = "Etunimi:";
+            // 
+            // EtunimiAsiakasTB
+            // 
+            EtunimiAsiakasTB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            EtunimiAsiakasTB.Location = new Point(166, 106);
+            EtunimiAsiakasTB.Name = "EtunimiAsiakasTB";
+            EtunimiAsiakasTB.Size = new Size(235, 29);
+            EtunimiAsiakasTB.TabIndex = 6;
             // 
             // AsiakasFM
             // 
@@ -214,28 +218,30 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Green;
             ClientSize = new Size(800, 412);
-            Controls.Add(dataGridView1);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(AsiakkaatDGW);
+            Controls.Add(TyhjennaSarakkeetAsiakasBT);
+            Controls.Add(LisaaUusiAsiakasBT);
+            Controls.Add(MuokkaaBT);
+            Controls.Add(PoistaBT);
+            Controls.Add(KaupunkiAsiakasTB);
+            Controls.Add(PostinumeroAsiakasTB);
+            Controls.Add(LahiosoiteAsiakasTB);
+            Controls.Add(SukunimiAsiakasTB);
+            Controls.Add(EtunimiAsiakasTB);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "AsiakasFM";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Asiakas hallinta";
             Load += AsiakasFM_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AsiakkaatDGW).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -244,20 +250,20 @@
 
         private Panel panel1;
         private Label label1;
-        private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private DataGridView dataGridView1;
+        private TextBox SukunimiAsiakasTB;
+        private TextBox LahiosoiteAsiakasTB;
+        private TextBox PostinumeroAsiakasTB;
+        private TextBox KaupunkiAsiakasTB;
+        private Button PoistaBT;
+        private Button MuokkaaBT;
+        private Button LisaaUusiAsiakasBT;
+        private Button TyhjennaSarakkeetAsiakasBT;
+        private DataGridView AsiakkaatDGW;
+        private Label label2;
+        private TextBox EtunimiAsiakasTB;
     }
 }

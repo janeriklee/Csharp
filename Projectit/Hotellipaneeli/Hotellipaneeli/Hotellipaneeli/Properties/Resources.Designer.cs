@@ -69,5 +69,15 @@ namespace Hotellipaneeli.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap point3d_commercial_imaging_ltd_i1kzMmWYQT4_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("point3d-commercial-imaging-ltd-i1kzMmWYQT4-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
