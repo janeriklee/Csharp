@@ -1,0 +1,17 @@
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\bin\Debug\net6.0-windows\PizzaTilausSysteemi.exe
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\bin\Debug\net6.0-windows\PizzaTilausSysteemi.deps.json
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\bin\Debug\net6.0-windows\PizzaTilausSysteemi.runtimeconfig.json
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\bin\Debug\net6.0-windows\PizzaTilausSysteemi.dll
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\bin\Debug\net6.0-windows\PizzaTilausSysteemi.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.TilausPaneeliFM.resources
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.Properties.Resources.resources
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.csproj.GenerateResource.cache
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.AssemblyInfoInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.AssemblyInfo.cs
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.csproj.CoreCompileInputs.cache
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.dll
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\refint\PizzaTilausSysteemi.dll
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.pdb
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\PizzaTilausSysteemi.genruntimeconfig.cache
+C:\Users\Jan Erik\source\repos\Csharp\Projectit\PizzaTilausSysteemi\PizzaTilausSysteemi\PizzaTilausSysteemi\obj\Debug\net6.0-windows\ref\PizzaTilausSysteemi.dll
