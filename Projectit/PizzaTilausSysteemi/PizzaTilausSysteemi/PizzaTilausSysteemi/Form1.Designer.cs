@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
-            VahvistaTilausFM = new Label();
+            MaksaTilausLB = new Label();
+            VahvistaTilausLB = new Label();
             TilaaLB = new Label();
             pictureBox1 = new PictureBox();
             TilaaPL = new Panel();
@@ -80,6 +80,39 @@
             IsoRB = new RadioButton();
             NormaaliRB = new RadioButton();
             label2 = new Label();
+            MaksaTilausPL = new Panel();
+            button4 = new Button();
+            panel10 = new Panel();
+            textBox15 = new TextBox();
+            textBox14 = new TextBox();
+            textBox13 = new TextBox();
+            textBox12 = new TextBox();
+            label15 = new Label();
+            label12 = new Label();
+            panel9 = new Panel();
+            OsoiteTB = new TextBox();
+            KaupunkiTB = new TextBox();
+            PostikoodiTB = new TextBox();
+            EtunimiTB = new TextBox();
+            SukunimiTB = new TextBox();
+            PuhelinnumeroTB = new TextBox();
+            label14 = new Label();
+            label13 = new Label();
+            VahvistaTilausPL = new Panel();
+            panel7 = new Panel();
+            button1 = new Button();
+            button2 = new Button();
+            LopullinenHintaLB = new TextBox();
+            VeroLB = new TextBox();
+            HintaEnnenVeroaLB = new TextBox();
+            label11 = new Label();
+            label10 = new Label();
+            label9 = new Label();
+            listView1 = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            ParentPL = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             TilaaPL.SuspendLayout();
@@ -90,13 +123,19 @@
             panel4.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
+            MaksaTilausPL.SuspendLayout();
+            panel10.SuspendLayout();
+            panel9.SuspendLayout();
+            VahvistaTilausPL.SuspendLayout();
+            panel7.SuspendLayout();
+            ParentPL.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(235, 112, 67);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(VahvistaTilausFM);
+            panel1.Controls.Add(MaksaTilausLB);
+            panel1.Controls.Add(VahvistaTilausLB);
             panel1.Controls.Add(TilaaLB);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(-4, -6);
@@ -104,44 +143,46 @@
             panel1.Size = new Size(924, 107);
             panel1.TabIndex = 0;
             // 
-            // label1
+            // MaksaTilausLB
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(730, 38);
-            label1.Name = "label1";
-            label1.Size = new Size(182, 37);
-            label1.TabIndex = 3;
-            label1.Text = "Maksa Tilaus";
+            MaksaTilausLB.AutoSize = true;
+            MaksaTilausLB.BackColor = Color.Transparent;
+            MaksaTilausLB.Cursor = Cursors.Hand;
+            MaksaTilausLB.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            MaksaTilausLB.ForeColor = Color.White;
+            MaksaTilausLB.Location = new Point(730, 38);
+            MaksaTilausLB.Name = "MaksaTilausLB";
+            MaksaTilausLB.Size = new Size(182, 37);
+            MaksaTilausLB.TabIndex = 3;
+            MaksaTilausLB.Text = "Maksa Tilaus";
+            MaksaTilausLB.Click += MaksaTilausLB_Click;
             // 
-            // VahvistaTilausFM
+            // VahvistaTilausLB
             // 
-            VahvistaTilausFM.AutoSize = true;
-            VahvistaTilausFM.BackColor = Color.Transparent;
-            VahvistaTilausFM.Cursor = Cursors.Hand;
-            VahvistaTilausFM.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            VahvistaTilausFM.ForeColor = Color.White;
-            VahvistaTilausFM.Location = new Point(517, 38);
-            VahvistaTilausFM.Name = "VahvistaTilausFM";
-            VahvistaTilausFM.Size = new Size(207, 37);
-            VahvistaTilausFM.TabIndex = 2;
-            VahvistaTilausFM.Text = "Vahvista Tilaus";
+            VahvistaTilausLB.AutoSize = true;
+            VahvistaTilausLB.BackColor = Color.Transparent;
+            VahvistaTilausLB.Cursor = Cursors.Hand;
+            VahvistaTilausLB.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            VahvistaTilausLB.ForeColor = Color.White;
+            VahvistaTilausLB.Location = new Point(517, 38);
+            VahvistaTilausLB.Name = "VahvistaTilausLB";
+            VahvistaTilausLB.Size = new Size(207, 37);
+            VahvistaTilausLB.TabIndex = 2;
+            VahvistaTilausLB.Text = "Vahvista Tilaus";
             // 
             // TilaaLB
             // 
             TilaaLB.AutoSize = true;
             TilaaLB.BackColor = Color.Transparent;
             TilaaLB.Cursor = Cursors.Hand;
-            TilaaLB.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            TilaaLB.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
             TilaaLB.ForeColor = Color.White;
             TilaaLB.Location = new Point(432, 38);
             TilaaLB.Name = "TilaaLB";
-            TilaaLB.Size = new Size(79, 37);
+            TilaaLB.Size = new Size(83, 37);
             TilaaLB.TabIndex = 1;
             TilaaLB.Text = "Tilaa";
+            TilaaLB.Click += TilaaLB_Click;
             // 
             // pictureBox1
             // 
@@ -161,9 +202,9 @@
             TilaaPL.Controls.Add(panel3);
             TilaaPL.Controls.Add(panel2);
             TilaaPL.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            TilaaPL.Location = new Point(-7, 101);
+            TilaaPL.Location = new Point(-7, 100);
             TilaaPL.Name = "TilaaPL";
-            TilaaPL.Size = new Size(924, 280);
+            TilaaPL.Size = new Size(921, 253);
             TilaaPL.TabIndex = 1;
             // 
             // panel6
@@ -673,19 +714,334 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(8, 4);
+            label2.Location = new Point(10, 4);
             label2.Name = "label2";
             label2.Size = new Size(97, 21);
             label2.TabIndex = 0;
             label2.Text = "Pizzan koko";
             label2.Click += label2_Click;
             // 
+            // MaksaTilausPL
+            // 
+            MaksaTilausPL.Controls.Add(button4);
+            MaksaTilausPL.Controls.Add(panel10);
+            MaksaTilausPL.Controls.Add(panel9);
+            MaksaTilausPL.Location = new Point(-7, 100);
+            MaksaTilausPL.Name = "MaksaTilausPL";
+            MaksaTilausPL.Size = new Size(924, 253);
+            MaksaTilausPL.TabIndex = 24;
+            MaksaTilausPL.Visible = false;
+            MaksaTilausPL.Paint += panel8_Paint;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.White;
+            button4.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.Location = new Point(476, 192);
+            button4.Name = "button4";
+            button4.Size = new Size(135, 48);
+            button4.TabIndex = 3;
+            button4.Text = "Maksa";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // panel10
+            // 
+            panel10.BackColor = Color.FromArgb(235, 112, 67);
+            panel10.Controls.Add(textBox15);
+            panel10.Controls.Add(textBox14);
+            panel10.Controls.Add(textBox13);
+            panel10.Controls.Add(textBox12);
+            panel10.Controls.Add(label15);
+            panel10.Controls.Add(label12);
+            panel10.Location = new Point(476, 11);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(428, 173);
+            panel10.TabIndex = 1;
+            // 
+            // textBox15
+            // 
+            textBox15.Location = new Point(127, 116);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(57, 23);
+            textBox15.TabIndex = 13;
+            // 
+            // textBox14
+            // 
+            textBox14.Location = new Point(127, 78);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(57, 23);
+            textBox14.TabIndex = 12;
+            // 
+            // textBox13
+            // 
+            textBox13.Location = new Point(127, 53);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(79, 23);
+            textBox13.TabIndex = 11;
+            // 
+            // textBox12
+            // 
+            textBox12.Location = new Point(127, 28);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(188, 23);
+            textBox12.TabIndex = 10;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
+            label15.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.White;
+            label15.Location = new Point(3, 32);
+            label15.Name = "label15";
+            label15.Size = new Size(120, 126);
+            label15.TabIndex = 10;
+            label15.Text = "Kortin numero:\r\nVanhenee:\r\nCVC:\r\n\r\nTippi:\r\n\r\n";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(3, 3);
+            label12.Name = "label12";
+            label12.Size = new Size(100, 21);
+            label12.TabIndex = 1;
+            label12.Text = "Maksutiedot";
+            // 
+            // panel9
+            // 
+            panel9.BackColor = Color.FromArgb(235, 112, 67);
+            panel9.Controls.Add(OsoiteTB);
+            panel9.Controls.Add(KaupunkiTB);
+            panel9.Controls.Add(PostikoodiTB);
+            panel9.Controls.Add(EtunimiTB);
+            panel9.Controls.Add(SukunimiTB);
+            panel9.Controls.Add(PuhelinnumeroTB);
+            panel9.Controls.Add(label14);
+            panel9.Controls.Add(label13);
+            panel9.Location = new Point(18, 11);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(451, 235);
+            panel9.TabIndex = 0;
+            // 
+            // OsoiteTB
+            // 
+            OsoiteTB.Location = new Point(133, 110);
+            OsoiteTB.Name = "OsoiteTB";
+            OsoiteTB.Size = new Size(188, 23);
+            OsoiteTB.TabIndex = 9;
+            // 
+            // KaupunkiTB
+            // 
+            KaupunkiTB.Location = new Point(133, 135);
+            KaupunkiTB.Name = "KaupunkiTB";
+            KaupunkiTB.Size = new Size(188, 23);
+            KaupunkiTB.TabIndex = 8;
+            // 
+            // PostikoodiTB
+            // 
+            PostikoodiTB.Location = new Point(133, 160);
+            PostikoodiTB.Name = "PostikoodiTB";
+            PostikoodiTB.Size = new Size(188, 23);
+            PostikoodiTB.TabIndex = 7;
+            // 
+            // EtunimiTB
+            // 
+            EtunimiTB.Location = new Point(133, 28);
+            EtunimiTB.Name = "EtunimiTB";
+            EtunimiTB.Size = new Size(188, 23);
+            EtunimiTB.TabIndex = 6;
+            // 
+            // SukunimiTB
+            // 
+            SukunimiTB.Location = new Point(133, 53);
+            SukunimiTB.Name = "SukunimiTB";
+            SukunimiTB.Size = new Size(188, 23);
+            SukunimiTB.TabIndex = 5;
+            // 
+            // PuhelinnumeroTB
+            // 
+            PuhelinnumeroTB.Location = new Point(133, 78);
+            PuhelinnumeroTB.Name = "PuhelinnumeroTB";
+            PuhelinnumeroTB.Size = new Size(188, 23);
+            PuhelinnumeroTB.TabIndex = 4;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.Transparent;
+            label14.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.White;
+            label14.Location = new Point(3, 32);
+            label14.Name = "label14";
+            label14.Size = new Size(124, 189);
+            label14.TabIndex = 3;
+            label14.Text = "Etunimi:\r\nSukunimi:\r\nPuhelinnumero:\r\n\r\nOsoite:\r\nKaupunki:\r\nPostikoodi:\r\n\r\n\r\n";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
+            label13.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label13.ForeColor = Color.White;
+            label13.Location = new Point(3, 3);
+            label13.Name = "label13";
+            label13.Size = new Size(109, 21);
+            label13.TabIndex = 2;
+            label13.Text = "Henkilötiedot";
+            // 
+            // VahvistaTilausPL
+            // 
+            VahvistaTilausPL.Controls.Add(panel7);
+            VahvistaTilausPL.Controls.Add(listView1);
+            VahvistaTilausPL.Dock = DockStyle.Fill;
+            VahvistaTilausPL.Location = new Point(0, 0);
+            VahvistaTilausPL.Name = "VahvistaTilausPL";
+            VahvistaTilausPL.Size = new Size(912, 253);
+            VahvistaTilausPL.TabIndex = 2;
+            VahvistaTilausPL.Paint += VahvistaTilausPL_Paint;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.FromArgb(235, 112, 67);
+            panel7.Controls.Add(button1);
+            panel7.Controls.Add(button2);
+            panel7.Controls.Add(LopullinenHintaLB);
+            panel7.Controls.Add(VeroLB);
+            panel7.Controls.Add(HintaEnnenVeroaLB);
+            panel7.Controls.Add(label11);
+            panel7.Controls.Add(label10);
+            panel7.Controls.Add(label9);
+            panel7.Location = new Point(469, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(452, 263);
+            panel7.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(197, 121);
+            button1.Name = "button1";
+            button1.Size = new Size(109, 42);
+            button1.TabIndex = 9;
+            button1.Text = "Tyhjennä";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(322, 121);
+            button2.Name = "button2";
+            button2.Size = new Size(109, 42);
+            button2.TabIndex = 8;
+            button2.Text = "Maksa";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // LopullinenHintaLB
+            // 
+            LopullinenHintaLB.Enabled = false;
+            LopullinenHintaLB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LopullinenHintaLB.Location = new Point(197, 86);
+            LopullinenHintaLB.Name = "LopullinenHintaLB";
+            LopullinenHintaLB.Size = new Size(234, 29);
+            LopullinenHintaLB.TabIndex = 6;
+            // 
+            // VeroLB
+            // 
+            VeroLB.Enabled = false;
+            VeroLB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            VeroLB.Location = new Point(197, 47);
+            VeroLB.Name = "VeroLB";
+            VeroLB.Size = new Size(234, 29);
+            VeroLB.TabIndex = 5;
+            // 
+            // HintaEnnenVeroaLB
+            // 
+            HintaEnnenVeroaLB.Enabled = false;
+            HintaEnnenVeroaLB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            HintaEnnenVeroaLB.Location = new Point(197, 8);
+            HintaEnnenVeroaLB.Name = "HintaEnnenVeroaLB";
+            HintaEnnenVeroaLB.Size = new Size(234, 29);
+            HintaEnnenVeroaLB.TabIndex = 4;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(26, 82);
+            label11.Name = "label11";
+            label11.Size = new Size(165, 30);
+            label11.TabIndex = 3;
+            label11.Text = "Lopullinen hinta";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(134, 43);
+            label10.Name = "label10";
+            label10.Size = new Size(57, 30);
+            label10.TabIndex = 2;
+            label10.Text = "Vero";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(3, 4);
+            label9.Name = "label9";
+            label9.Size = new Size(188, 30);
+            label9.TabIndex = 1;
+            label9.Text = "Hinta ennen veroa";
+            // 
+            // listView1
+            // 
+            listView1.BorderStyle = BorderStyle.None;
+            listView1.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3 });
+            listView1.Location = new Point(0, 0);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(469, 263);
+            listView1.TabIndex = 0;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            listView1.Visible = false;
+            // 
+            // columnHeader1
+            // 
+            columnHeader1.Text = "Tuotteet";
+            columnHeader1.Width = 238;
+            // 
+            // columnHeader2
+            // 
+            columnHeader2.Text = "Määrä";
+            columnHeader2.Width = 148;
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "Hinta";
+            columnHeader3.Width = 83;
+            // 
+            // ParentPL
+            // 
+            ParentPL.Controls.Add(VahvistaTilausPL);
+            ParentPL.Location = new Point(-4, 100);
+            ParentPL.Name = "ParentPL";
+            ParentPL.Size = new Size(912, 253);
+            ParentPL.TabIndex = 3;
+            // 
             // TilausPaneeliFM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(908, 358);
+            ClientSize = new Size(908, 359);
             Controls.Add(TilaaPL);
+            Controls.Add(MaksaTilausPL);
+            Controls.Add(ParentPL);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "TilausPaneeliFM";
@@ -707,6 +1063,15 @@
             panel3.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            MaksaTilausPL.ResumeLayout(false);
+            panel10.ResumeLayout(false);
+            panel10.PerformLayout();
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            VahvistaTilausPL.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            ParentPL.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -715,8 +1080,8 @@
         private Panel panel1;
         private PictureBox pictureBox1;
         private Label TilaaLB;
-        private Label label1;
-        private Label VahvistaTilausFM;
+        private Label MaksaTilausLB;
+        private Label VahvistaTilausLB;
         private Panel TilaaPL;
         private Panel panel2;
         private Label label2;
@@ -764,5 +1129,38 @@
         private CheckBox FantaCB;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        private Panel VahvistaTilausPL;
+        private ListView listView1;
+        private ColumnHeader columnHeader1;
+        private ColumnHeader columnHeader2;
+        private ColumnHeader columnHeader3;
+        private Label label9;
+        private Panel panel7;
+        private TextBox HintaEnnenVeroaLB;
+        private Label label11;
+        private Label label10;
+        private Button button1;
+        private Button button2;
+        private TextBox LopullinenHintaLB;
+        private TextBox VeroLB;
+        private Panel ParentPL;
+        private Panel MaksaTilausPL;
+        private Panel panel10;
+        private Panel panel9;
+        private Button button4;
+        private Label label12;
+        private Label label14;
+        private Label label13;
+        private TextBox OsoiteTB;
+        private TextBox KaupunkiTB;
+        private TextBox PostikoodiTB;
+        private TextBox EtunimiTB;
+        private TextBox SukunimiTB;
+        private TextBox PuhelinnumeroTB;
+        private TextBox textBox14;
+        private TextBox textBox13;
+        private TextBox textBox12;
+        private Label label15;
+        private TextBox textBox15;
     }
 }
